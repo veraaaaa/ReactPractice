@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr=[12,34,65,34,123];
+       let newarr= arr.sort((demoa,demob)=>{
+            if(demoa<demob){
+                return -1;
+            }
+            if(demoa>demob){
+                return 1;
+            }
+            return 0
+        })
+        console.log(newarr)//[12, 34, 34, 65, 123]
+    </script>
+</body>
+</html>
